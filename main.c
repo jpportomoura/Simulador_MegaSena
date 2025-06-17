@@ -44,7 +44,7 @@ int main() {
             finalizar = deseja_recomecar();
             if (finalizar == 'N') {
                 printf("\nEncerrando o programa. Nenhum jogo foi gravado ou executado.\n");
-                return 0; // encerra sem mostrar jogos ou sorteios
+                return 0; 
             }
         } else {
             finalizar = 'N';
