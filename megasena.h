@@ -13,5 +13,8 @@ char deseja_gravar();
 char deseja_recomecar();
 void gerar_jogo(int jogo[6]);
 int calcular_acertos(int jogo_usuario[], int QD, int jogo_premiado[]);
+void gerar_surpresinhas(int QD, int QS, int surpresinhas[][15]);
+float calcular_premio(int QD, int acertos);
+
 
 #endif
